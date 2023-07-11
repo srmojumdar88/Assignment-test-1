@@ -17,7 +17,7 @@ body{
 }
 .header-contant{
     width: 55%;
-    margin: 190px 0px 160px 0px;
+    margin: 190px 0px ;
 }
 
 .header-title{
@@ -79,7 +79,7 @@ main{
 
 .picture1{
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
+    background: rgba(91, 140, 135, 0.47);
     width: 464px;
     height: 538px;
     display: flex;
@@ -89,7 +89,7 @@ main{
 }
 .picture2{
     border-radius: 300px 300px 0px 0px;
-    background: rgba(178, 13, 203, 0.495);
+    background: rgba(72, 112, 68, 0.34);
     width: 464px;
     height: 538px;
     display: flex;
@@ -99,7 +99,7 @@ main{
 
 .picture3{
     border-radius: 300px 300px 0px 0px;
-    background: rgba(51, 18, 34, 0.15);
+    background: rgba(71, 222, 44, 0.21);
     width: 464px;
     height: 538px;
     display: flex;
@@ -119,6 +119,36 @@ main{
     text-decoration-line: underline;
 }
 /* section1 style end */
+
+/* new section style start */
+.extra-section{
+    margin-top: 100px;
+   
+}
+
+.flower{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    list-style: none;
+}
+
+.flower>li{
+    background-color: rgba(229, 84, 115, 0.10);
+    padding:30px 30px;
+    border-radius: 5px;
+}
+
+h5{
+    font-size: 20px;
+    padding;10px 0px
+}
+.flower>li>a{
+    font-size: 25px;
+}
+
+
+/* new section style end */
 
 
 /* section2 style start */
@@ -186,3 +216,38 @@ main{
     height: 64px;
 }
 /* section4 style start */
+
+
+/* footer style start */
+.footer{
+    background-color: #302f2f;
+    color: #FFF;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.footer-title{
+    padding: 120px 0px 25px 0px;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+span{
+    color: #E55473;
+}
+
+.icon{
+    display: flex;
+    margin: 40px 0px;
+    justify-content: center;
+    list-style: none;
+}
+
+li{
+    padding: 20px;
+}
+
+.copyrights{
+    padding: 150px ;
+    font-size: 14;
+}
