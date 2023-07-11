@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    display: flexbox;
 }
 
 body{
@@ -11,11 +12,9 @@ body{
 .header{
     background: rgba(229, 84, 115, 0.10);
     display: flex;
+    justify-content: space-around;
     padding: 0px 220px;
-    max-width: 1920px;
-    gap: 80px;
 }
-
 .header-contant{
     width: 55%;
     margin: 190px 0px 160px 0px;
@@ -51,20 +50,18 @@ body{
 .header-img{
     margin-top: 100px;
 }
-
-
 /* header style end */
 
 
 /* main section style start */
 main{
-    max-width: 1440px;
+    max-width: 1480px;
     margin: 150px auto;
 }
 
 /* section1 style start */
 .section1-contant{
-    margin:5px 350px;
+    margin:50px 350px;
     text-align: center;
 }
 .title{
@@ -76,8 +73,7 @@ main{
 
 .section1-picture{
     display: flex;
-    gap: 24px;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
@@ -123,3 +119,70 @@ main{
     text-decoration-line: underline;
 }
 /* section1 style end */
+
+
+/* section2 style start */
+.section2{
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 220px;
+    max-height: 600px;
+}
+
+.section2-contant{
+    width: 55%;
+    margin: 190px 0px 160px 0px;
+}
+
+.section2-title{
+    color: #272727;
+    font-size:  40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.section2-img{
+    margin: 100px 0px;
+}
+/* section2 style end */
+
+
+/* section3 style start */
+
+.section3-contant{
+    margin:5px 350px;
+    text-align: center;
+}
+
+.section3-picture{
+    display: flex;
+    justify-content: space-between;
+}
+/* section3 style end */
+
+
+/* section4 style start */
+.section4{
+    background-image: url("/image/Rectangle\ 9.png");
+    background-size: cover;
+    margin: 120px 0px;
+    height: 450px;
+    text-align: center;
+
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+}
+
+.section4-container{
+    padding:120px 280px;
+}
+
+.form input[type="email"]{
+    background: #FFF;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+    width: 700px;
+    height: 64px;
+}
+/* section4 style start */
