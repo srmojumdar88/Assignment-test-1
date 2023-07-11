@@ -19,8 +19,6 @@ body{
 .header-contant{
     width: 55%;
     margin: 190px 0px 160px 0px;
-
-    border: 2px solid black;
 }
 
 .header-title{
@@ -58,4 +56,70 @@ body{
 /* header style end */
 
 
-/* main section start */
+/* main section style start */
+main{
+    max-width: 1440px;
+    margin: 150px auto;
+}
+
+/* section1 style start */
+.section1-contant{
+    margin:5px 350px;
+    text-align: center;
+}
+.title{
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.section1-picture{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+
+}
+
+.picture1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.picture2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(178, 13, 203, 0.495);
+    width: 464px;
+    height: 538px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.picture3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(51, 18, 34, 0.15);
+    width: 464px;
+    height: 538px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.flower-name{
+    padding: 20px;
+    color: #272727;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+/* section1 style end */
