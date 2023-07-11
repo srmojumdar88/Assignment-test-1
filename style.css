@@ -3,32 +3,38 @@
     padding: 0px;
 }
 
+body{
+    font-family: 'Lato', sans-serif;
+}
+
 /* header style start */
 .header{
     background: rgba(229, 84, 115, 0.10);
     display: flex;
-    padding: 0px 200px;
+    padding: 0px 220px;
     max-width: 1920px;
-    max-height: 100vh;
     gap: 80px;
 }
 
 .header-contant{
     width: 55%;
-    padding: 190px 0px;
+    margin: 190px 0px 160px 0px;
+
+    border: 2px solid black;
 }
 
 .header-title{
     color: #272727;
     font-size: 80px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 900;
+    max-width:700px;
 }
 
 .description{
     padding: 32px 0px;
-    color: rgba(50, 70, 39, 0.60);
-    font-size: 18px;
+    color: rgba(50, 80, 39, 0.60);
+    font-size: 20px;
     font-weight: 400;
     font-style: normal;
 }
