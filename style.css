@@ -172,9 +172,6 @@ h5{
     font-weight: 700;
 }
 
-.section2-img{
-    margin: 100px 0px;
-}
 /* section2 style end */
 
 
@@ -194,7 +191,7 @@ h5{
 
 /* section4 style start */
 .section4{
-    background-image: url("/image/Rectangle\ 9.png");
+    background-image: url("/image/bg.png");
     background-size: cover;
     margin: 120px 0px;
     height: 450px;
@@ -238,7 +235,7 @@ span{
 
 .icon{
     display: flex;
-    margin: 40px 0px;
+    margin-top: 40px;
     justify-content: center;
     list-style: none;
 }
@@ -248,6 +245,6 @@ li{
 }
 
 .copyrights{
-    padding: 150px ;
+    padding: 100px 0px 50px ;
     font-size: 14;
 }
