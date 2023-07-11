@@ -9,12 +9,13 @@
     display: flex;
     padding: 0px 200px;
     max-width: 1920px;
-    gap: 80px;   
+    max-height: 100vh;
+    gap: 80px;
 }
 
 .header-contant{
     width: 55%;
-    padding: 150px 0px;
+    padding: 190px 0px;
 }
 
 .header-title{
@@ -44,9 +45,7 @@
 }
 
 .header-img{
-    margin-top: 50px;
-
-    border: 2px solid black;
+    margin-top: 100px;
 }
 
 
